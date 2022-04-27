@@ -1,11 +1,27 @@
 const soda = document.getElementById('soda');
+const cheese = document.getElementById('cheese');
+
+
+
+
+
+
 
 soda.addEventListener('click', () => {
-    resetstyles();
+    soda.classList.toggle('picked');
 
 });
 
-const resetstyles = () => {
-    soda.classList.toggle('picked');
-};
+cheese.addEventListener('click', () => {
+    cheese.classList.toggle('picked');
+});
+
+
+
+
+
+
+
+
+
 
